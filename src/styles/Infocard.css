@@ -1,0 +1,38 @@
+.infocard-container
+{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    width: 34vh;
+    margin: 15px 15px 15px 15px;
+    height: 35vh;
+    padding: 4.5vh 3.5vh 4.5vh 3.5vh;
+    box-sizing: border-box;
+}
+
+.card-image
+{
+    width: 70px;
+    height: 95px;
+}
+
+.card-title
+{
+    color: #000;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 0;
+}
+
+.card-desc
+{
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}

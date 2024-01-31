@@ -1,0 +1,130 @@
+.main-container-one {
+    padding: 0 10% 10% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main-container-one-text-inner > h2 {
+    color: #000;
+    font-family: Mulish;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.main-container-one-text-inner > p {
+    color: #7d7987;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    padding-bottom: 25px;
+}
+
+.main-container-one-text-inner {
+    position: absolute;
+    width: 25%;
+}
+
+.main-container-two {
+    padding: 0 15% 0 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.main-container-two-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+}
+
+hr {
+    height: 1px;
+    width: 5%;
+    border: 0;
+    border-top: 2px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.main-container-two-header > h2 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 0;
+}
+
+.infocards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85%;
+    position: relative;
+    justify-content: center;
+}
+
+.main-container-three {
+    padding: 0 10% 10% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.button-primary-active {
+    background-color: #458ff6;
+    border-style: none;
+    color: #fff;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    border-radius: 45px;
+    padding: 0 50px 0 50px;
+}
+
+.button-primary-outline {
+    border-radius: 55px;
+    border: 1.4px solid #458ff6;
+    color: #458ff6;
+    background-color: white;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 50px 0 50px;
+}
+
+.button-primary-active:hover {
+    background-color: #3570c4;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.button-primary-outline:hover {
+    border-style: none;
+    background-color: #78a6e6;
+    color: white;
+}
+
+.text-lightgray-main {
+    color: #7d7987;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
